@@ -1,0 +1,37 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(238, 233, 219);
+    color: rgb(22, 22, 20);
+}
+
+h1 {
+    font-size: 32px;
+    color: rgb(92, 102, 215);
+}
+
+#home-title {
+    font-size: 40px;
+}
+
+h2 {
+    color: rgb(180, 103, 30);
+}
+
+.recipe-links {
+    list-style-type: none;
+}
+
+.recipe-links a {
+    font-size: 18px;
+    color: rgb(22, 22, 20);
+}
+
+.steps strong {
+    color: rgb(92, 102, 215);
+}
+
+footer #back-home {
+    background-color: rgb(180, 103, 30);
+    color: rgb(238, 233, 219);
+    font-weight: 700;
+}
