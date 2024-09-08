@@ -4,13 +4,11 @@
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: rgb(249, 247, 242);
+    background-color: rgb(255, 254, 251);
     color: rgb(22, 22, 20);
-    box-sizing: border-box;
 }
 
 h1 {
-    font-size: 32px;
     color: rgb(74, 105, 241);
 }
 
@@ -36,14 +34,13 @@ h1 {
     height: 330px;
     margin: 16px 8px 16px 8px;
     padding: 0 0 24px 0;
-    box-sizing: border-box;
 }
 
 .recipe-card.last-card {
     margin-bottom: 8px;
 }
 
-img {
+img.home-image {
     object-fit: cover;
     object-position: 30%;
     width: 1080px;
@@ -64,12 +61,71 @@ a:hover {
 }
 
 /* RECIPE PAGE STYLINGS */
-h2 {
+
+h1.recipe-page {
+    font-size: 36px;
+    margin-top: 56px;
+    text-align: center;
+}
+
+img.dish-image {
+    display: block;
+    margin: 8px auto;
+    width: 600px;
+    height: auto;
+
+}
+
+h2.recipe-page {
     color: rgb(180, 103, 30);
+    margin: 16px 0px;
 }
 
 .recipe-links {
     list-style-type: none;
+}
+
+div.recipe-page-layout {
+    /* background-color: rgb(225, 225, 69); */
+    margin: auto;
+    /* padding: 16px; */
+    max-width: fit-content;
+}
+
+div.recipe-page-layout .description-section {
+    background-color: rgb(228, 228, 227);
+    width: 1080px;
+    height: auto;
+    margin: 16px 8px 16px 8px;
+    padding: 8px;
+
+}
+
+div.recipe-page-layout .ingredient-section {
+    background-color: rgb(228, 228, 227);
+    width: 1080px;
+    height: auto;
+    margin: 16px 8px 16px 8px;
+    padding: 8px;
+
+}
+
+div.recipe-page-layout .instruction-section {
+    background-color: rgb(228, 228, 227);
+    width: 1080px;
+    height: auto;
+    margin: 16px 8px 16px 8px;
+    padding: 8px;
+
+}
+
+.subsection {
+    background-color: rgb(255, 254, 251);
+    padding: 8px;
+} 
+
+h3 {
+    margin: 8px 0px;
 }
 
 /* .recipe-links a {
