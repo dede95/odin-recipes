@@ -14,43 +14,53 @@ h1 {
     color: rgb(74, 105, 241);
 }
 
-a, a:visited, a:hover, a:active {
-    color: inherit;
-  }
-
-h2.link-title {
-    color: rgb(255, 255, 255);
-    padding-left: 8px;
-}
 
 #home-title {
     font-size: 48px;
     padding: 8px;
-    margin-left: 48px;
+    margin-left: 168px;
 }
 
 /* HOMEPAGE CARDS STYLING */
 
 .recipe-homepage-cards {
     background-color: rgb(228, 228, 227);
-    margin: 8px 48px 8px 48px;
+    margin: auto;
     padding: 16px;
     max-width: fit-content;
 }
 
 .recipe-card {
     background-color: rgb(105, 130, 240);
-    width: 750px;
+    width: 1080px;
     height: 330px;
-    margin: 8px 8px 8px 8px;
+    margin: 16px 8px 16px 8px;
     padding: 0 0 24px 0;
     box-sizing: border-box;
 }
 
+.recipe-card.last-card {
+    margin-bottom: 8px;
+}
+
 img {
     object-fit: cover;
-    width: 750px;
+    object-position: 30%;
+    width: 1080px;
     height: 250px;
+}
+
+h2.link-title {
+    color: rgb(255, 255, 255);
+    padding-left: 8px;
+}
+
+a, a:visited, a:active {
+    color: inherit;
+  }
+
+a:hover {
+    color: rgb(38, 63, 174);
 }
 
 /* RECIPE PAGE STYLINGS */
