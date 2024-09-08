@@ -87,9 +87,7 @@ h2.recipe-page {
 }
 
 div.recipe-page-layout {
-    /* background-color: rgb(225, 225, 69); */
     margin: auto;
-    /* padding: 16px; */
     max-width: fit-content;
 }
 
@@ -130,10 +128,7 @@ h3 {
     margin: 8px 0px;
 }
 
-/* .recipe-links a {
-    font-size: 18px;
-    color: rgb(22, 22, 20);
-} */
+/* FOOTER STYLING */
 
 footer {
     background-color: rgb(180, 103, 30);
