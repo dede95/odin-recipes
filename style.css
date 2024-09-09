@@ -121,8 +121,17 @@ div.recipe-page-layout .instruction-section {
 .section,
 .subsection {
     background-color: rgb(255, 254, 251);
-    padding: 8px;
+    padding: 8px 24px ;
+    list-style-position: inside;
 } 
+
+.instruction-section .steps {
+    list-style-type: none;
+}
+
+.subsection .list-padding {
+    padding-left: 0px;
+}
 
 h3 {
     margin: 8px 0px;
